@@ -22,6 +22,10 @@ public class ToStringMain2 {
         ObjectPrinter.print(dog1);
         ObjectPrinter.print(dog2);
 
-
+        //객체 참조값 출력
+        String refValue = Integer.toHexString(System.identityHashCode(dog1));
+        System.out.println("refValue = " + refValue);
+        String refValue2 = Integer.toHexString(System.identityHashCode(dog2));
+        System.out.println("refValue2 = " + refValue2);
     }
 }
