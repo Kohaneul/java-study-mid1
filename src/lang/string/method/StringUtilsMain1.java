@@ -18,7 +18,8 @@ public class StringUtilsMain1 {
         System.out.println("빈문자열 + num = " + numString2);
 
         char[] charArray = str.toCharArray();
-        for (char c : charArray) {
+        for (char c : charArray)
+        {
             System.out.print(c);
         }
         System.out.println();

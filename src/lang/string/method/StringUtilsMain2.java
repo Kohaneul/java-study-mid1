@@ -18,5 +18,6 @@ public class StringUtilsMain2 {
         //match 메서드
         String regex = "Hello, (Java!|World)"; //Java! 나 World 가 들어오면 true로 반환
         System.out.println("'str'이 패턴과 일치하는가? " + str.matches(regex));
+
     }
 }
