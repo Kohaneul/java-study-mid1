@@ -1,17 +1,11 @@
 package lang.test;
 
-public class TestString6 {
+public class TestString7 {
     public static void main(String[] args) {
-        String str = "start hello java, hello spring, hello jpa";
-        String key = "hello";
-
-        int count = 0;
-        int idx = str.indexOf(key);
-        while(idx>=0){
-            idx = str.indexOf(key,idx+1);
-            count++;
-        }
-        System.out.println("count = " + count);
-
+    String original = "         Hello Java      ";
+        String trim = original.trim();
+        String strip = original.strip();
+        System.out.println("strip = " + strip);
+        System.out.println("trim = " + trim);
     }
 }

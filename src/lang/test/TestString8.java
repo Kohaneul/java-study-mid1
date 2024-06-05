@@ -1,11 +1,10 @@
 package lang.test;
 
-public class TestString7 {
+public class TestString8 {
     public static void main(String[] args) {
-    String original = "         Hello Java      ";
-        String trim = original.trim();
-        String strip = original.strip();
-        System.out.println("strip = " + strip);
-        System.out.println("trim = " + trim);
+    String input = "hello java spring jpa java";
+        String replace = input.replace("java", "jvm");
+        System.out.println("replace = " + replace);
+
     }
 }

@@ -1,14 +1,11 @@
 package lang.test;
 
-import java.util.Arrays;
-
-public class TestString10 {
+public class TestString11 {
     public static void main(String[] args) {
-        String fruits = "apple,banana,mango";
-        String[] split = fruits.split(",");
-        String joinedString = String.join("->", split);
-        System.out.println("join = " + joinedString);
-
+        String str = "Hello Java";
+        StringBuilder sb = new StringBuilder(str);
+        String reverseStr = sb.reverse().toString();
+        System.out.println("reverseStr = " + reverseStr);
 
     }
 }

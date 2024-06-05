@@ -1,14 +1,17 @@
 package lang.test;
 
-public class TestString5 {
+public class TestString6 {
     public static void main(String[] args) {
-        String str = "user.exe";
-        String ext = ".exe";
-        int idx = str.indexOf(ext);
-        String fileName = str.substring(0, idx);
-        System.out.println("substring1 = " + fileName);
-        String extName = str.substring(idx);
-        System.out.println("substring2 = " + extName);
+        String str = "start hello java, hello spring, hello jpa";
+        String key = "hello";
+
+        int count = 0;
+        int idx = str.indexOf(key);
+        while(idx>=0){
+            idx = str.indexOf(key,idx+1);
+            count++;
+        }
+        System.out.println("count = " + count);
 
     }
 }
