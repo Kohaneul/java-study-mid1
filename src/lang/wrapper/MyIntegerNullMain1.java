@@ -1,10 +1,10 @@
 package lang.wrapper;
 
-import lang.object.Parent;
+import java.util.Arrays;
 
-public class MyIntegerNullMain0 {
+public class MyIntegerNullMain1 {
     public static void main(String[] args) {
-      int[] intArr = {-1,0,1,2,3};
+      MyInteger[] intArr = {new MyInteger(-1),new MyInteger(0),new MyInteger(1)};
         System.out.println(findValue(intArr,-1));
         System.out.println(findValue(intArr,1));
         System.out.println(findValue(intArr,0));
@@ -13,12 +13,12 @@ public class MyIntegerNullMain0 {
 
     }
 
-    private static int findValue(int[] intArr, int target){
-        for (int value : intArr) {
-            if(value==target) {
-                return value;
+    private static MyInteger findValue(MyInteger[] intArr, int target){
+        for (MyInteger myInteger : intArr) {
+            if(myInteger.getValue()==target){
+                return myInteger;
             }
         }
-        return -1;
+        return null;
     }
 }
