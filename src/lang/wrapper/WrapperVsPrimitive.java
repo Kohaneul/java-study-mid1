@@ -17,7 +17,6 @@ public class WrapperVsPrimitive {
         System.out.println("기본 자료형 long 실행 시간 : "+(endTime-startTime) + "ms");
 
         //래퍼클래스 long 사용
-
         //기본형 long 사용
         Long sumWrapper =0L;
         startTime = System.currentTimeMillis();
