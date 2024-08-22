@@ -1,23 +1,24 @@
 package lang.immutable.address;
 
-public class MemberMainV2 {
+public class MemberMainV1 {
     public static void main(String[] args) {
-        ImmutableAddress address = new ImmutableAddress("서울");
-        MemberV2 memberA = new MemberV2("회원A", address);
-        MemberV2 memberB = new MemberV2("회원B", address);
+        Address address = new Address("서울");
+        MemberV1 memberA = new MemberV1("회원A",address);
+        MemberV1 memberB = new MemberV1("회원B",address);
 
-        //회원 A, 회원 B의 주소는 모두 서울
+        //회원 A, 회원 B
         System.out.println("memberA = " + memberA);
         System.out.println("memberB = " + memberB);
 
-        //회원 B의 주소지가 부산으로 변경해야 함
-        //memberB.getAddress().setValue("부산") -> 컴파일오류
-        memberB.setAddress(new ImmutableAddress("부산")); //새로운 주소객체를 전달
+        change(memberB, memberA);
 
-        System.out.println("부산 -> memberB.address");
+    }
+
+    private static void change(MemberV1 memberB, MemberV1 memberA) {
+        memberB.setAddress(new Address("부산"));
+        System.out.println("부산 -> memberB");
+        //회원 A, 회원 B
         System.out.println("memberA = " + memberA);
         System.out.println("memberB = " + memberB);
-
-
     }
 }

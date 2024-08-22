@@ -1,20 +1,15 @@
 package enumiration.ref3;
 
+
+
 import static enumiration.ref3.Grade.*;
 
-public class EnumRefMain3_3 {
-
+public class EnumRefMain3_2 {
     public static void main(String[] args) {
         int price = 10000;
 
-        printDiscount(BASIC,price);
-        printDiscount(DIAMOND,price);
-        printDiscount(GOLD,price);
-
-    }
-
-    private static void printDiscount(Grade grade, int price){
-        System.out.println(grade.name()+" = " + grade.discount(price));
-
+        System.out.println("basic = " + BASIC.discount(price));
+        System.out.println("gold = " +  GOLD.discount(price));
+        System.out.println("diamond = " + DIAMOND.discount(price));
     }
 }

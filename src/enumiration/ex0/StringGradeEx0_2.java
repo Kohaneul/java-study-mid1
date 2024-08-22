@@ -1,21 +1,17 @@
 package enumiration.ex0;
 
-public class StringGradeEx0_2 {
+public class StringGradeEx0_1 {
     public static void main(String[] args) {
         int price = 10000;
-    DiscountService discountService = new DiscountService();
 
-        // 존재하지 않는 등급
-        int discount = discountService.discount("VIP", price);
-        System.out.println("VIP 등급의 할인 금액 = " + discount);
+        DiscountService discountService = new DiscountService();
+        int basic = discountService.discount("BASIC", price);
+        System.out.println("basic = " + basic);
+        int gold = discountService.discount("GOLD", price);
+        System.out.println("gold = " + gold);
+        int diamond = discountService.discount("DIAMOND", price);
+        System.out.println("diamond = " + diamond);
 
-        //오타
-        int discount1 = discountService.discount("DIAMONDDD", price);
-        System.out.println("DIAMONDDD 의 할인 금액 = " + discount1);
 
-
-        //소문자 입력
-        int discount2 = discountService.discount("gold", price);
-        System.out.println("gold 등급의 할인 금액 = " + discount2);
     }
 }

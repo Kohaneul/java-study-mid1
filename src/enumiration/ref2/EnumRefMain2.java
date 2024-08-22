@@ -1,7 +1,6 @@
-package enumiration.ref2;
+package enumiration.ex3;
 
-public class EnumRefMain2 {
-
+public class ClassGradeEx3_1 {
     public static void main(String[] args) {
         int price = 10000;
         DiscountService discountService = new DiscountService();
@@ -9,8 +8,7 @@ public class EnumRefMain2 {
         System.out.println("basic = " + basic);
         int gold = discountService.discount(Grade.GOLD, price);
         System.out.println("gold = " + gold);
-        int diamond= discountService.discount(Grade.DIAMOND, price);
+        int diamond = discountService.discount(Grade.DIAMOND, price);
         System.out.println("diamond = " + diamond);
-
     }
 }

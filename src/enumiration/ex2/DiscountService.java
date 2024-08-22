@@ -1,22 +1,21 @@
-package enumiration.ex2;
+package enumiration.ex0;
 
 public class DiscountService {
-    public int discount(ClassGrade grade, int price){
-        int discountPercent=0;
-      if(grade==ClassGrade.BASIC){
-          discountPercent = 10;
-      }
-      else  if(grade==ClassGrade.GOLD){
-            discountPercent = 10;
+    public int discount(String grade, int price){
+        int discountPrice = 0;
+        if(grade.equals("BASIC")){
+            discountPrice = 10;
         }
-      else  if(grade==ClassGrade.DIAMOND){
-            discountPercent = 10;
+        else if(grade.equals("GOLD")){
+            discountPrice = 20;
         }
-
-      else{
-          System.out.println("할인 X : grade"+grade);
-      }
-        //10000 * (20/100) = 2000
-        return price * discountPercent/100;
+        else if(grade.equals("DIAMOND")){
+            discountPrice = 30;
+        }
+        else{
+            System.out.println(grade+" : 할인 X");
+        }
+        //10000*(20/100)
+        return price * discountPrice/100;
     }
 }

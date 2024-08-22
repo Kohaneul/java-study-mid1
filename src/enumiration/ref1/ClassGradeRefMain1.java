@@ -1,19 +1,18 @@
-package enumiration.ref1;
+package enumiration.ex2;
 
 
+import static enumiration.ex2.ClassGrade.*;
 
-public class ClassGradeRefMain1 {
+public class ClassGradeEx2_1 {
     public static void main(String[] args) {
         int price = 10000;
         DiscountService discountService = new DiscountService();
-
-        int basic = discountService.discount(ClassGrade.BASIC, price);
-        System.out.println("basic = " + basic);
-        int gold = discountService.discount(ClassGrade.GOLD, price);
-        System.out.println("gold = " + gold);
-        int diamond = discountService.discount(ClassGrade.DIAMOND, price);
+        int diamond = discountService.discount(DIAMOND, price);
         System.out.println("diamond = " + diamond);
-
+        int gold = discountService.discount(GOLD, price);
+        System.out.println("gold = " + gold);
+        int basic = discountService.discount(BASIC, price);
+        System.out.println("basic = " + basic);
 
     }
 }
