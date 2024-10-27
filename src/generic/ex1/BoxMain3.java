@@ -2,6 +2,8 @@ package generic.ex1;
 
 public class BoxMain3 {
     public static void main(String[] args) {
+
+        //Integer > 타입 인자를 통해 GenericBox에 타입 매개변수 전달
         GenericBox<Integer> integerBox = new GenericBox<>();    //생성시점에 T의 타입 결정
         integerBox.set(11); //Integer 타입만 허용 -> 컴파일오류
         System.out.println("integerGenericBox = " + integerBox.get());
