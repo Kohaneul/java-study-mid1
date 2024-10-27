@@ -1,5 +1,5 @@
 package generic.ex1;
 
 public class IntegerBox {
-    //aa
+    //aass
 }
