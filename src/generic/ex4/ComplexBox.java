@@ -1,4 +1,4 @@
-package generic.test.ex4;
+package generic.ex4;
 
 import generic.animal.Animal;
 
@@ -15,7 +15,6 @@ public class ComplexBox <T extends Animal>{
     }
 
     public  <Z> Z printAndReturn(Z z){
-        System.out.println("====================");
         System.out.println("animal.className" + animal.getClass().getName());
         System.out.println("t.className" + z.getClass().getName());
         return z;
