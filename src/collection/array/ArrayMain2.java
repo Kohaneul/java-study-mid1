@@ -38,6 +38,7 @@ public class ArrayMain2 {
 
     private static void addAtIndex(int[] arr, int index, int value) {
         int len = arr.length-1;
+
         //3,1,2,0,0 -> 3,1, 4,2,0
         //4 <-3
         //3 <-2
