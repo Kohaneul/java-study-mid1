@@ -1,5 +1,8 @@
 package collection.list;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+
 public class MyLinkedList<E> implements MyList<E>{
     private Node<E> first;
     private int size= 0;
@@ -110,6 +113,7 @@ public class MyLinkedList<E> implements MyList<E>{
 
         public Node(E item) {
             this.item = item;
+
         }
 
 
