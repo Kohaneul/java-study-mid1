@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ShoppingCart {
-    private List<Item> itemList;
+    private final List<Item> itemList;
 
     public ShoppingCart() {
         itemList = new ArrayList<>();
@@ -16,11 +16,10 @@ public class ShoppingCart {
 
     public void displayItems(){
         System.out.println("장바구니 상품 출력");
-        int sum = 0;
         for (Item item : itemList) {
-            sum+=item.getTotalPrice();
             System.out.println("상품명 : "+item.getName()+", 합계 : "+item.getTotalPrice());
         }
+        int sum = itemList.stream().mapToInt(Item::getTotalPrice).sum();
         System.out.println("전체 가격 합 : "+sum);
     }
 
