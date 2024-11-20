@@ -46,7 +46,6 @@ public class HashStart5 {
         if(!bucket.contains(value)){    //O(n)
             bucket.add(value);
         }
-
     }
     private static int hashIndex(int value){
         return value%CAPACITY;
