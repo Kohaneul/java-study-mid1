@@ -1,5 +1,6 @@
 package collection.set.member;
 
+import java.util.LinkedHashMap;
 import java.util.Objects;
 
 public class MemberOnlyHash {
