@@ -17,10 +17,14 @@ public class Cart {
     }
 
     public void minus(Product product,int quantity){
-        int qty = cartMap.get(product) - quantity;
-        cartMap.put(product,qty);
-        if(qty<1){
+        int qty = cartMap.getOrDefault(product,0) - quantity;
+        System.out.println("qty = " + qty);
+        if(qty<=0){
             cartMap.remove(product);
+        }
+        else{
+            cartMap.put(product,qty);
+
         }
 
     }
