@@ -13,7 +13,7 @@ public class SyncMain {
 
         System.out.println("list = " + list);
         List<Integer> synchronizedList = Collections.synchronizedList(list);
-        //첫번째 작업이 끝날때까지 기다ㅈㅇ
+        //첫번째 작업이 끝날때까지 기다림
         System.out.println("synchronizedList = " + synchronizedList);
     }
 }
