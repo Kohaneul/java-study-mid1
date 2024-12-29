@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b869c451-92c9-4ca2-9416-8119963428b8" name="Changes" comment="1226 commit">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/yield/YieldMain.java" afterDir="false" />
+    <list default="true" id="b869c451-92c9-4ca2-9416-8119963428b8" name="Changes" comment="1229 commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -166,7 +159,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735206684498</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1229 commit">
+      <option name="closed" value="true" />
+      <created>1735470185850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1735470185850</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1229 commit">
+      <option name="closed" value="true" />
+      <created>1735471225066</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735471225066</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,7 +193,8 @@
     <MESSAGE value="1212 commit" />
     <MESSAGE value="1213 commit" />
     <MESSAGE value="1226 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1226 commit" />
+    <MESSAGE value="1229 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1229 commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_adv1$ThreadStopMainV3.ic" NAME="ThreadStopMainV3 Coverage Results" MODIFIED="1735208308162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
