@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b869c451-92c9-4ca2-9416-8119963428b8" name="Changes" comment="1213 commit">
-      <change afterPath="$PROJECT_DIR$/src/thread/control/CheckedExceptionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/join/JoinMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/test/JoinTest2Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/control/test/JoinTestMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/thread/util/ThreadUtils.java" afterDir="false" />
+    <list default="true" id="b869c451-92c9-4ca2-9416-8119963428b8" name="Changes" comment="1226 commit">
+      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/interrupt/ThreadStopMainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/printer/MyPrinterV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thread/control/yield/YieldMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,19 +50,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="thread.control.printer" />
+      <recent name="thread.control.interrupt" />
       <recent name="thread.control.test" />
       <recent name="thread.control.join" />
       <recent name="thread.start.test" />
-      <recent name="thread.start" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreadStopMainV1 (1)">
-    <configuration name="JoinMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.join.JoinMainV4" />
+  <component name="RunManager" selected="Application.MyPrinterV4">
+    <configuration name="MyPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinter" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.join.*" />
+          <option name="PATTERN" value="thread.control.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinTest2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.test.JoinTest2Main" />
+    <configuration name="MyPrinterV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV1" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.test.*" />
+          <option name="PATTERN" value="thread.control.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinTestMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.test.JoinTestMain" />
+    <configuration name="MyPrinterV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV2" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.test.*" />
+          <option name="PATTERN" value="thread.control.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStopMainV1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV1" />
+    <configuration name="MyPrinterV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.printer.MyPrinterV4" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.interrupt.*" />
+          <option name="PATTERN" value="thread.control.printer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadStopMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.control.interrupt.ThreadStopMainV1" />
+    <configuration name="YieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.control.yield.YieldMain" />
       <module name="java-adv1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.control.interrupt.*" />
+          <option name="PATTERN" value="thread.control.yield.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadStopMainV1 (1)" />
-        <item itemvalue="Application.ThreadStopMainV1" />
-        <item itemvalue="Application.JoinTest2Main" />
-        <item itemvalue="Application.JoinTestMain" />
-        <item itemvalue="Application.JoinMainV4" />
+        <item itemvalue="Application.MyPrinterV4" />
+        <item itemvalue="Application.YieldMain" />
+        <item itemvalue="Application.MyPrinterV2" />
+        <item itemvalue="Application.MyPrinter" />
+        <item itemvalue="Application.MyPrinterV1" />
       </list>
     </recent_temporary>
   </component>
@@ -159,12 +158,37 @@
       <option name="project" value="LOCAL" />
       <updated>1734087925593</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1226 commit">
+      <option name="closed" value="true" />
+      <created>1735206684498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1735206684498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1212 commit" />
     <MESSAGE value="1213 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="1213 commit" />
+    <MESSAGE value="1226 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1226 commit" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_adv1$ThreadStopMainV3.ic" NAME="ThreadStopMainV3 Coverage Results" MODIFIED="1735208308162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>thread.control.interrupt.*</FILTER>
+    </SUITE>
   </component>
 </project>
