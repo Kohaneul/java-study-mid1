@@ -8,6 +8,7 @@ import static thread.util.MyLogger.log;
 
 public class MyPrinterV4 {
     public static void main(String[] args) {
+
         Printer printer  = new Printer();
         Thread printerThread = new Thread(printer,"printer");
         printerThread.start();
